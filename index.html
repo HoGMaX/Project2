@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <title>Restaurant Template</title>
 </head>
 <body>
@@ -27,14 +26,17 @@
              <li class="btn"><a href="#" >CONTACT</a></li>
          </ul>
         </div>
+
+        <!-- Внутренняя часть шапки  -->
+        
         <div class="center_header">
             <p>Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
-            <span id="line_left"></span>
+            <span class="line_left"></span>
             <h5> RESTAURANT</h5>
-            <h1 style="font-family: 'Banny Light Round';font-size: 76px">hungry people</h1>
-            <span id="line_center"></span>
-            <span id="yellow_line"></span>
-            <span id="line_right"></span>
+            <h1>hungry people</h1>
+            <span class="line_center"></span>
+            <span class="yellow_line"></span>
+            <span class="line_right"></span>
             <div class="center_header_menu">
                 <a href="#" class="button active">BOOK TABLE</a>
                 <a href="#" class="button">EXPLORE</a>
@@ -48,13 +50,45 @@
             </div>
         </div>
     </header>
+    <!-- Основная часть -->
     <main>
-        <div class="conteiner">
-            <div class="About_us">
+        <div class="section_row">
+            <div class="about_us">
                 <h2>about us</h2>
+                <span class="yellow_line"></span>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Nesciunt laborum nisi dignissimos illum inventore a repellendus minima, 
-                    ut animi recusandae culpa? Ad illum officia quis iure, minima sint asperiores fugit.</p>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nobis tempore cupiditate provident voluptatibus ipsa repudiandae 
+                    beatae dolorem neque quo quasi iste vel excepturi reiciendis 
+                    accusamus impedit eum maiores, asperiores mollitia.</p>
+            </div>
+            <img src="resources/about-img.svg" alt="">
+            <div class="hollow_square">
+            </div>
+        </div>
+        <div class="section_column">
+            <div class="our_team">
+                <span class="line_left"></span>
+                <span class="line_center"></span>
+                <span class="line_right"></span>
+                <h5>OUR TEAM</h5>
+                <div class="master_shef">
+                    <div class="hollow_square"></div>
+                    <img src="resources/Rectangle.svg" alt="">
+                </div>
+                <div class="master_shef_description">
+                    <h2>MASTER CHEF</h2>
+                    <span class="yellow_line"></span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Nesciunt laborum nisi dignissimos illum inventore a repellendus minima, 
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nobis tempore cupiditate provident voluptatibus ipsa repudiandae 
+                    beatae dolorem neque quo quasi iste vel excepturi reiciendis 
+                    accusamus impedit eum maiores, asperiores mollitia.</p>
+                </div>
             </div>
         </div>
     </main>
